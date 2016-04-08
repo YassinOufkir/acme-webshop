@@ -87,25 +87,26 @@
 				<div  class="row" id="receiptform">
 
 					<div class="col-lg-4" id="forms">
-					<h2>Contact us</h2>			
-					<form>
-  					<div class="form-group">
-   						 <label for="exampleInputEmail1">Name</label>
-    						<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-  					</div>
- 					 <div class="form-group">
-    					<label>Email adress</label>
-   						<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  					</div>
-  					<div class="form-group">
-   						 <label for="exampleInputFile">Comment</label>
-    					<textarea class="form-control" id="message-text" rows="10" cols="50"></textarea>
+						<h2>Contact us</h2>			
+						<form>
+
+  							<div class="form-group">
+   								<label for="exampleInputEmail1">Name</label>
+    							<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  							</div>
+ 					 		<div class="form-group">
+    							<label>Email adress</label>
+   								<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  							</div>
+  							<div class="form-group">
+   								<label for="exampleInputFile">Comment</label>
+    							<textarea class="form-control" id="message-text" rows="11" cols="50"></textarea>
     					
- 					</div>
-  					<div id="submitbutton">
-  					<button type="submit" class="btn btn-default"><b>Submit</b></button>
-  					</div>
-					</form>	
+ 							</div>
+  							<div id="submitbutton">
+  								<button type="submit" class="btn btn-default"><b>Submit</b></button>
+  							</div>
+						</form>	
 					
 					</div>
 
@@ -113,33 +114,32 @@
 						
 					</div>
 
-					<div class="col-lg-4">
-						<h3 class="#">Contact information</h3>
+					<div class="col-lg-4" id="contactgegevens">
+						<h2 class="#">Contact information</h2>
 
-				<ul>
-					<li><span class="glyphicon glyphicon-earphone"> 070-1234567</li>
-					<li><span class="glyphicon glyphicon-envelope"> info@hapsalon.com</li>
-					<li><span class="glyphicon glyphicon-globe"> www.hapsalon.com</li>
-					<li><span class="glyphicon glyphicon-road"> Paulkrugerlaan 52, 1234AB</li>
-					<li><span class="glyphicon glyphicon-time"> Ma t/m Zo: 12:00 - 01:00</li>
-				</ul>
-				<br>
-				<br>
-				<div id="map" class="maps">
-				 	<div id="map"></div>
-   					 <script>
-      				function initMap() {
-       			 	var mapDiv = document.getElementById('map');
-        			var map = new google.maps.Map(mapDiv, {
-          			center: {lat: 44.540, lng: -78.546},
-          			zoom: 8
-        			});
-      				}
-    			</script>
-   				 <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
-        				async defer></script>
-				 </div>
-					</div>
+						<ul class="info">
+							<li> <div id="glyphs" class="glyphicon glyphicon-earphone"></div><label>015-1234567</label></li>
+							<li> <div id="glyphs" class="glyphicon glyphicon-envelope"></div><label>info@HQA.com</label></li>
+							<li> <div id="glyphs" class="glyphicon glyphicon-globe"></div><label>www.HQA.com</label></li>
+							<li> <div id="glyphs" class="glyphicon glyphicon-road"></div><label>Paulkrugerlaan 52, 1234AB</label></li>
+							<li> <div id="glyphs" class="glyphicon glyphicon-time"></div><label>Ma - Vr | 08:30 - 18:00</label></li>
+						</ul>
+						
+						<div id="map" class="maps">
+				 			<div id="map"></div>
+   					 		<script>
+      							function initMap() {
+       			 				var mapDiv = document.getElementById('map');
+        						var map = new google.maps.Map(mapDiv, {
+          						center: {lat: 44.540, lng: -78.546},
+          						zoom: 8
+        						});
+      							}
+    						</script>
+   							 <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        					async defer></script>
+				 			</div>
+						</div>
 				</div>
 
 
