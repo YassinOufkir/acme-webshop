@@ -4,7 +4,7 @@
 	<title></title>
 	<meta charset="UTF-8">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="storestyle.css" rel="stylesheet">
+	<link href="contactstyle.css" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
 </head>
@@ -74,11 +74,8 @@
 			</div>
 			<div class="col-lg-12" id="headerimg">
 
-				<img src="img/sliderphoto1.jpg" class="img-responsive">
+				<img src="img/sliderphoto3.jpg" class="img-responsive">
 				
-
-			
-
 			</div>
 
 		</div>
@@ -87,14 +84,64 @@
 		
 		
 		<div class="midcontent">
-				
-				<div id="text" class="">	
-				
+				<div  class="row" id="receiptform">
 
+					<div class="col-lg-4" id="forms">
+					<h2>Contact us</h2>			
+					<form>
+  					<div class="form-group">
+   						 <label for="exampleInputEmail1">Name</label>
+    						<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  					</div>
+ 					 <div class="form-group">
+    					<label>Email adress</label>
+   						<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  					</div>
+  					<div class="form-group">
+   						 <label for="exampleInputFile">Comment</label>
+    					<textarea class="form-control" id="message-text" rows="10" cols="50"></textarea>
+    					
+ 					</div>
+  					<div id="submitbutton">
+  					<button type="submit" class="btn btn-default"><b>Submit</b></button>
+  					</div>
+					</form>	
+					
+					</div>
 
-			
+					<div class="col-lg-4">
+						
+					</div>
 
-				
+					<div class="col-lg-4">
+						<h3 class="#">Contact information</h3>
+
+				<ul>
+					<li><span class="glyphicon glyphicon-earphone"> 070-1234567</li>
+					<li><span class="glyphicon glyphicon-envelope"> info@hapsalon.com</li>
+					<li><span class="glyphicon glyphicon-globe"> www.hapsalon.com</li>
+					<li><span class="glyphicon glyphicon-road"> Paulkrugerlaan 52, 1234AB</li>
+					<li><span class="glyphicon glyphicon-time"> Ma t/m Zo: 12:00 - 01:00</li>
+				</ul>
+				<br>
+				<br>
+				<div id="map" class="maps">
+				 	<div id="map"></div>
+   					 <script>
+      				function initMap() {
+       			 	var mapDiv = document.getElementById('map');
+        			var map = new google.maps.Map(mapDiv, {
+          			center: {lat: 44.540, lng: -78.546},
+          			zoom: 8
+        			});
+      				}
+    			</script>
+   				 <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        				async defer></script>
+				 </div>
+					</div>
+				</div>
+
 
 			
 
