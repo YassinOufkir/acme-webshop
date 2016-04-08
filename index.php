@@ -24,10 +24,10 @@
 				<div class="collapse navbar-collapse navHeaderCollapse" id="menu">
 				<a href="index.html" class="navbar-brand" id="nametag"><b>High Quality Arms</b></a>
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="store.html"><b>STORE</b></a></li>
-						<li><a href="contact.html">Contact</a></li>
-						<li><a href="contact.html" data-toggle="modal" data-target="#login">Log In</a></li>
+						<li><a href="index.php">Home</a></li>
+						<li><a href="store.php"><b>STORE</b></a></li>
+						<li><a href="contact.php">Contact</a></li>
+						<li><a href="#" data-toggle="modal" data-target="#login">Log In</a></li>
 						<li><a href="#"><img src="img/twitter.png" width="20" height="16" ></a></li>
 						<li><a href="#"><img src="img/insta.png" width="20" height="20" class="socialmedia"></a></li>
 						<li><a href="#"><img src="img/facebook.png" width="20" height="20" class="socialmedia"></a></li>
