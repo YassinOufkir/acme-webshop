@@ -89,7 +89,7 @@ body{
 	background-color:black;
 	position:relative;
 	margin-bottom:0%;
-	height:2300px;
+	height:720px;
 	font-family:audiowide;
 }
 #receiptform{
@@ -124,7 +124,9 @@ body{
 #forms{
 	margin-top:5%;
 	margin-left:5%;
+	
 }
+
 #contactgegevens{
 	float:right;
 }

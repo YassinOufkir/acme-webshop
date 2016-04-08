@@ -31,6 +31,7 @@
 						<li><a href="#"><img src="img/twitter.png" width="20" height="16" ></a></li>
 						<li><a href="#"><img src="img/insta.png" width="20" height="20" class="socialmedia"></a></li>
 						<li><a href="#"><img src="img/facebook.png" width="20" height="20" class="socialmedia"></a></li>
+						<li><a href="#"><img src="img/shoppingcart.png" width="30" height="30"></a></li>
 					</ul>
 					
 				</div>
@@ -88,7 +89,7 @@
 
 					<div class="col-lg-4" id="forms">
 						<h2>Contact us</h2>			
-						<form>
+						<form method="GET" action="form.php">
 
   							<div class="form-group">
    								<label for="exampleInputEmail1">Name</label>

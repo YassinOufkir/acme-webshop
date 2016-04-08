@@ -31,6 +31,7 @@
 						<li><a href="#"><img src="img/twitter.png" width="20" height="16" ></a></li>
 						<li><a href="#"><img src="img/insta.png" width="20" height="20" class="socialmedia"></a></li>
 						<li><a href="#"><img src="img/facebook.png" width="20" height="20" class="socialmedia"></a></li>
+						<li><a href="#"><img src="img/shoppingcart.png" width="30" height="30"></a></li>
 					</ul>
 					
 				</div>
@@ -88,7 +89,7 @@
 		
 		<div class="midcontent">
 				
-				<div id="text" class="">	
+				<div id="text" class="text-center">	
 					<p>
 						<h1 class="hqatitle">Assault Rifles</h1>
 						<hr>
