@@ -9,7 +9,6 @@
 	<link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
 </head>
 <body>
-		<?php include 'check.php'; ?>
 		<div class="navbar navbar-inverse navbar-static-top" id="navbar">
 		
 			<div class="container">
@@ -27,7 +26,7 @@
 						<li><a href="index.php">Home</a></li>
 						<li><a href="store.php"><b>STORE</b></a></li>
 						<li><a href="contact.php">Contact</a></li>
-						<li><a href="#" data-toggle="modal" data-target="#login">Log In</a></li>
+						<?php include 'check.php'; ?>
 						<li><a href="#"><img src="img/twitter.png" width="20" height="16" ></a></li>
 						<li><a href="#"><img src="img/insta.png" width="20" height="20" class="socialmedia"></a></li>
 						<li><a href="#"><img src="img/facebook.png" width="20" height="20" class="socialmedia"></a></li>
