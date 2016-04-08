@@ -9,7 +9,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
 </head>
 <body>
-		<?php include check.php; ?>
+		<?php include 'check.php'; ?>
 		<div class="navbar navbar-inverse navbar-static-top" id="navbar">
 		
 			<div class="container">
@@ -47,22 +47,22 @@
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h3 class="modal-title" id="exampleModalLabel">Log in</h3>
       </div>
+      <form name="login" method="post" action="login.php">
       <div class="modal-body">
-        <form>
           <div class="form-group">
             <label for="recipient-name" class="control-label">Username:</label>
-            <input type="text" class="form-control" id="recipient-name">
+            <input name="username" type="text" class="form-control" id="recipient-name">
           </div>
           <div class="form-group">
             <label for="text" class="control-label">Password:</label>
-            <input type="text" class="form-control" id="recipient-name">
+            <input name="password" type="password" class="form-control" id="recipient-name">
           </div>
-        </form>
       </div>
       <div class="modal-footer">
-      	 <button type="button" class="btn btn-primary">Submit</button>
+      	<button type="button" class="btn btn-primary">Submit</button>
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
+</form>
     </div>
   </div>
 </div>
@@ -176,7 +176,7 @@
 
 
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>
 </body>
 </html>

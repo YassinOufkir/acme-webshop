@@ -9,7 +9,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
 </head>
 <body>
-		<?php include check.php; ?>
+		<?php include 'check.php'; ?>
 		<div class="navbar navbar-inverse navbar-static-top" id="navbar">
 		
 			<div class="container">
@@ -59,10 +59,11 @@
           </div>
       </div>
       <div class="modal-footer">
-      	<button type="button" class="btn btn-primary">Submit</button>
+		<label for="text" class="control-label">remember me</label><input type="checkbox" name="rememberme" value="false">
+      	<input type="submit" name="submit" value="submit" class="btn btn-primary"S>
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
-      </form>
+</form>
     </div>
   </div>
 </div>
@@ -183,7 +184,7 @@
 
 
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>
 </body>
 </html>
