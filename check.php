@@ -1,6 +1,6 @@
 <?php
-$user = 'jonny4';
-$pass = 'delafoo';
+$user = 'ayy';
+$pass = 'lmao';
 
 	if (isset($_COOKIE['username']) && isset($_COOKIE['password'])) {
     
