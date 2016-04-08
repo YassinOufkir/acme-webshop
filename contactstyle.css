@@ -26,10 +26,14 @@ body{
 .modal-footer{
 	border:none;
 }
-.modal-footer {
-	border:none;
-}
 
+#contactgegevens{
+	margin-top:5%;
+
+}
+#contactgegevens ul li{
+	font-family:audiowide;
+}
 #navbar{
 	margin-bottom:0px;
 	background-color:black;
@@ -121,6 +125,32 @@ body{
 	margin-top:5%;
 	margin-left:5%;
 }
+#contactgegevens{
+	float:right;
+}
+#contactgegevens ul li span a{
+	font-family:audiowide;
+	text-decoration:none;
+	font-size:1em;
+	color:white;
+	margin-left:5%;
+}
+#glyphs{
+	margin-right:10px;
+}
+.maps{
+	margin-top:7%;
+	border-radius:10px;
+	width:300px;
+	height:250px;
+}
+#contactgegevens ul li span a:hover{
+	color:white;
+}
+.info li{
+	list-style-type:none;
+	font-family:audiowide;
+}	
 .headertext{
 	margin-top:5%;
 	font-family:audiowide;
