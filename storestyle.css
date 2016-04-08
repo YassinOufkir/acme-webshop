@@ -13,6 +13,23 @@ body{
 	z-index:900;
 	
 }
+.modal-content{
+	margin-top:40%;
+}
+#logwindow{
+	background-color:black;
+	color:white;
+}
+.modal-header{
+	border:none;
+}
+.modal-footer{
+	border:none;
+}
+.modal-footer {
+	border:none;
+}
+
 #navbar{
 	margin-bottom:0px;
 	background-color:black;
