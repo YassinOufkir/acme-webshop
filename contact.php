@@ -87,6 +87,7 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
           </div>
       </div>
       <div class="modal-footer">
+      	<label for="text" class="control-label">remember me</label><input type="checkbox" name="rememberme" value="false">
       	<button type="button" class="btn btn-primary">Submit</button>
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
