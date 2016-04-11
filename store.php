@@ -1,3 +1,36 @@
+<?php
+// standaard wachtwoord en naam omdat we geen database gebruiken
+$user = 'ayy';
+$pass = 'lmao';
+echo "<h1>login</h1>";
+setcookie('test','test');
+if (isset($_POST['username']) && isset($_POST['password'])) {
+    echo "post";
+    if (($_POST['username'] == $user) && ($_POST['password'] == $pass)) {    
+        
+        if (isset($_POST['rememberme'])) {
+            echo "rememberme";
+            // cookie bechimmeld na 1 jaar
+            setcookie('username', $_POST['username'], time()+60*60*24*365, '/account', 'https://raptorcloud.net/school/acme');
+            setcookie('password', md5($_POST['password']), time()+60*60*24*365, '/account', 'https://raptorcloud.net/school/acme');
+        
+        } else {
+            // zapt de cookie weg als de client zijn browser sluit (soort van....)
+            setcookie('username', $_POST['username'], false, '/account', 'https://raptorcloud.net/school/acme');
+            setcookie('password', md5($_POST['password']), false, '/account', 'https://raptorcloud.net/school/acme');
+        }
+        header('Location: index.php');
+        // error handling (moet nog veranderd worden)
+    } 
+    else 
+    {
+        echo '<p>Username/Password Invalid</p>';
+    }
+    
+} else {
+    echo '<p>You must supply a username and password.</p>';
+}
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,7 +42,6 @@
 	<link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
 </head>
 <body>
-		<?php include 'check.php'; ?>
 		<div class="navbar navbar-inverse navbar-static-top" id="navbar">
 		
 			<div class="container">
@@ -27,7 +59,7 @@
 						<li><a href="index.php">Home</a></li>
 						<li><a href="store.php"><b>STORE</b></a></li>
 						<li><a href="contact.php">Contact</a></li>
-						<li><a href="#" data-toggle="modal" data-target="#login">Log In</a></li>
+						<?php include 'check.php'; ?>
 						<li><a href="#"><img src="img/twitter.png" width="20" height="16" ></a></li>
 						<li><a href="#"><img src="img/insta.png" width="20" height="20" class="socialmedia"></a></li>
 						<li><a href="#"><img src="img/facebook.png" width="20" height="20" class="socialmedia"></a></li>
@@ -47,7 +79,7 @@
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h3 class="modal-title" id="exampleModalLabel">Log in</h3>
       </div>
-      <form name="login" method="post" action="login.php">
+      <form name="login" method="post" action="index.php">
       <div class="modal-body">
           <div class="form-group">
             <label for="recipient-name" class="control-label">Username:</label>
