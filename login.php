@@ -1,7 +1,7 @@
 <?php
 // standaard wachtwoord en naam omdat we geen database gebruiken
-$user = 'ayy';
-$pass = 'lmao';
+$user = 'user';
+$pass = 'user';
 echo "<h1>login</h1>";
 if (isset($_POST['username']) && isset($_POST['password'])) {
     echo "post";

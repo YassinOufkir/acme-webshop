@@ -1,10 +1,10 @@
 <?php
 	if (isset($_COOKIE['username']) && isset($_COOKIE['password'])) {
-    
-    if (($_POST['username'] != $user) || ($_POST['password'] != md5($pass))) {    
+ 	
+    if (($_POST['username'] != $user) || ($_POST['password'] != $pass)) {    
         echo "<li><a href='#' data-toggle='modal' data-target='#login'>Log In - wrong</a></li>";
-    } else {
-        echo "<p>Welcome back " . $_COOKIE['username']."</p>";
+    } elseif(($_POST['username'] == $user) || ($_POST['password'] == $pass)) {
+        echo "<li><a href='#' data-toggle='modal' data-target='#login'>Welcome back</a></li>";
     }
     
 	} else {

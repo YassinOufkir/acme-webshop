@@ -1,34 +1,31 @@
 <?php
 // standaard wachtwoord en naam omdat we geen database gebruiken
-$user = 'ayy';
-$pass = 'lmao';
-echo "<h1>login</h1>";
-setcookie('test','test');
+$user = 'user';
+$pass = 'user';
 if (isset($_POST['username']) && isset($_POST['password'])) {
-    echo "post";
     if (($_POST['username'] == $user) && ($_POST['password'] == $pass)) {    
         
         if (isset($_POST['rememberme'])) {
             echo "rememberme";
             // cookie bechimmeld na 1 jaar
-            setcookie('username', $_POST['username'], time()+60*60*24*365, '/account', 'https://raptorcloud.net/school/acme');
-            setcookie('password', md5($_POST['password']), time()+60*60*24*365, '/account', 'https://raptorcloud.net/school/acme');
+            setcookie('username', $_POST['username'], time()+60*60*24*365);
+            setcookie('password', $_POST['password'], time()+60*60*24*365);
         
         } else {
             // zapt de cookie weg als de client zijn browser sluit (soort van....)
-            setcookie('username', $_POST['username'], false, '/account', 'https://raptorcloud.net/school/acme');
-            setcookie('password', md5($_POST['password']), false, '/account', 'https://raptorcloud.net/school/acme');
+            setcookie('username', $_POST['username'], false);
+            setcookie('password', $_POST['password'], false);
         }
         header('Location: index.php');
         // error handling (moet nog veranderd worden)
     } 
     else 
     {
-        echo '<p>Username/Password Invalid</p>';
+        echo '<script>console.log("Wrong password/username")</script>';
     }
     
 } else {
-    echo '<p>You must supply a username and password.</p>';
+    echo '<script>console.log("No inputs")</script>';
 }
 ?>
 <!DOCTYPE html>
@@ -54,7 +51,7 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
 				</button>
 				
 				<div class="collapse navbar-collapse navHeaderCollapse" id="menu">
-				<a href="index.html" class="navbar-brand" id="nametag"><b>High Quality Arms</b></a>
+				<a href="index.php" class="navbar-brand" id="nametag"><b>High Quality Arms</b></a>
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="index.php">Home</a></li>
 						<li><a href="store.php"><b>STORE</b></a></li>
