@@ -77,13 +77,13 @@
 					</ol>
 					<div class="carousel-inner">
 						<div class="item active">
-							<img src="img/sliderphoto1.jpg" class="img-responsive">
+							<img src="img/9e139d84b7a317a16157564ca75f2d8c.gif" class="img-responsive" alt="gifstart" style="width: 1920px; height: 721px; ">
 						</div>
 						<div class="item">
-							<img src="img/sliderphoto2.jpg" class="img-responsive">
+							<img src="img/view.jpg" class="img-responsive" style="width: 1920px; height: 721px;">
 						</div>
 						<div class="item">
-							<img src="img/sliderphoto3.jpg" class="img-responsive">
+							<img src="img/Rifle.png" class="img-responsive" style="height: 721px; width: 1920px;">
 						</div>
 					</div>
 					
@@ -96,7 +96,7 @@
 		
 		
 		<div class="midcontent">
-<<<<<<< HEAD
+
 				
 				<div id="text" class="text-center">	
 					<p>
@@ -105,11 +105,6 @@
 					</p>
 				</div>
 
-				<div id="profile" class="text-center">	
-					<div class="profilefoto" id="left"></div>
-					<div class="profilefoto"></div>
-					<div class="profilefoto" id="right"></div>
-				</div>
 
 				<div class="abouttext text-center">
 				We from HQA are trained profesionals in selling, preparing and guiding fire arms, our knowledge about fire arms dates back to the WWII.<br/><br/>
@@ -133,34 +128,8 @@
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/cevzDKW90j0" frameborder="0" allowfullscreen></iframe>
 				</div>
 
-=======
 			
-			<div id="text" class="text-center">
-				<p>
-					<h1 class="hqatitle">The HQA Team</h1>
-					<hr>
-				</p>
-			</div>
-			<div id="profile" class="text-center">
-				<div class="profilefoto" id="left"></div>
-				<div class="profilefoto"></div>
-				<div class="profilefoto" id="right"></div>
-			</div>
-			<div class="abouttext text-center">
-				<h4>We from HQA are trained profesionals in selling, preparing and guiding fire arms, our knowledge about fire arms dates back to the wwII.
-				If you need information and guidance, HQA is the place to be!  </h4>
-			</div>
-			<div id="text" class="text-center">
-				<p>
-					<h1 class="hqatitle">Montage</h1>
-					<hr>
-				</p>
-			</div>
-			<div class="vid">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/o63FwCn8dgo" frameborder="0" allowfullscreen></iframe>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/cevzDKW90j0" frameborder="0" allowfullscreen></iframe>
-			</div>
->>>>>>> 5910c5a2709f597746d61e9aa642af80dabfb671
+			
 			
 		</div>
 		<div id="footer">
@@ -178,5 +147,6 @@
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src="js/bootstrap.js"></script>
+		<script src="mouse-script.js"></script>
 	</body>
 </html>

@@ -64,10 +64,12 @@ body{
 	margin-left:5%;
 	margin-top:3%;
 	height:400px;
+
 	font-family:audiowide;
 }
 #logo h1{
 	display:inline-block;
+	font-size:6em;
 }
 #header{
 	position:fixed;
@@ -78,6 +80,7 @@ body{
 
 .hqatitle{
 	margin-top:5%;
+	font-size:4em;
 }
 .midcontent{
 	z-index:200;
@@ -165,10 +168,11 @@ hr{
 	position:relative;
 }
 .footerimg{
-	width:210px;
-	padding-top:3%;
+width:210px;
+	padding-top:1%;
 	margin-left:auto;
 	margin-right:auto;
+	margin-bottom:2%;
 }
 #footermenu{
 	margin-top:-2%;
