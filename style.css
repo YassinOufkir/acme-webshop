@@ -1,5 +1,5 @@
 body{
-	
+	background-color:#2A2D2A;
 }
 .socialmedia{
 	margin-left:-25px;
@@ -89,7 +89,7 @@ body{
 	background-color:black;
 	position:relative;
 	margin-bottom:0%;
-	height:1350px;
+	height:1400px;
 	font-family:audiowide;
 	color:white;
 
@@ -161,7 +161,7 @@ hr{
 }
 
 #footer{
-	margin-top:-3%;
+	margin-top:-2%;
 	width:100%;
 	background-color:#2A2D2A;
 	height:280px;
@@ -175,6 +175,6 @@ width:210px;
 	margin-bottom:2%;
 }
 #footermenu{
-	margin-top:-2%;
+	margin-top:1%;
 	color:white;
 }

@@ -196,9 +196,17 @@ iframe{
 
 
 
-#slider{
-	
-	
+.miniproducts{
+	display:inline-block;
+	background-color:white;
+	height:40px;
+	width:100px;
+}
+#shoppingproducts{
+	background-color:white;
+}
+.buttonproducts{
+	display:inline-block;
 }
 .headertext{
 	margin-top:5%;
