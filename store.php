@@ -18,7 +18,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				</button>
-				
+				 
 				<div class="collapse navbar-collapse navHeaderCollapse" id="menu">
 					<a href="index.php" class="navbar-brand" id="nametag"><b>High Quality Arms</b></a>
 					<ul class="nav navbar-nav navbar-right">
@@ -31,7 +31,6 @@
 						<li><a href="#"><img src="img/facebook.png" width="20" height="20" class="socialmedia"></a></li>
 						<li><a href="#"><img src="img/shoppingcart.png" width="30" height="30"></a></li>
 					</ul>
-					
 				</div>
 			</div>
 		</div>
