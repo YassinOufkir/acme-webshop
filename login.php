@@ -7,8 +7,8 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
         
         if (isset($_POST['rememberme'])) {
             // cookie bechimmeld na 1 jaar
-            setcookie('username', $_POST['username'], time()+60*60*24*365);
-            setcookie('password', $_POST['password'], time()+60*60*24*365);
+            setcookie('username', $_POST['username'], time()+60*60*6);
+            setcookie('password', $_POST['password'], time()+60*60*6);
         
         } else {
             // zapt de cookie weg als de client zijn browser sluit (soort van....)

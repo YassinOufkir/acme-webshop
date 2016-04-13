@@ -18,14 +18,13 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				</button>
-				
 				<div class="collapse navbar-collapse navHeaderCollapse" id="menu">
 					<a href="index.php" class="navbar-brand" id="nametag"><b>High Quality Arms</b></a>
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="index.php">Home</a></li>
 						<li><a href="store.php"><b>STORE</b></a></li>
 						<li><a href="contact.php">Contact</a></li>
-						<?php include 'check.php'; ?>
+						<?php include 'check.php';?>
 						<li><a href="#"><img src="img/twitter.png" width="20" height="16" ></a></li>
 						<li><a href="#"><img src="img/insta.png" width="20" height="20" class="socialmedia"></a></li>
 						<li><a href="#"><img src="img/facebook.png" width="20" height="20" class="socialmedia"></a></li>
@@ -141,12 +140,30 @@
 				</div>
 
 
+<<<<<<< HEAD
+				<div class="abouttext text-center">
+			<div id="text" class="text-center">
+				<p>
+					<h1 class="hqatitle">The HQA Team</h1>
+					<hr>
+				</p>
+			</div>
+			<div id="profile" class="text-center">
+				<div class="profilefoto" id="left"></div>
+				<div class="profilefoto"></div>
+				<div class="profilefoto" id="right"></div>
+			</div>
+			<div class="abouttext text-center">
+				We from HQA are trained profesionals in selling, preparing and guiding fire arms, our knowledge about fire arms dates back to the WWII.<br/><br/>
+				If you need information and guidance, HQA is the place to be! Check out our <a href="contact.html" style="color: red;">ABOUT</a> page if you need any kind help. <br/><br/>
+=======
 				
 			<div class="abouttext text-center">
 
 				We from HQA are trained profesionals in selling, preparing and guiding fire arms, our knowledge about fire arms dates back to the WWII.<br/><br/>
 				If you need information and guidance, HQA is the place to be! Check out our <a href="contact.html" style="color: red;">ABOUT</a> page if you need any kind help. <br/><br/>
 
+>>>>>>> refs/remotes/origin/master
 
 					We offer quick and completly FREE shipping, worldwide.<br/><br/>
 
@@ -169,7 +186,11 @@
 			
 		
 			</div>
+<<<<<<< HEAD
+		</div>
+=======
 
+>>>>>>> refs/remotes/origin/master
 		<div id="footer">
 			<div class="footerimg">
 				<img src="img/logo2.png" width="200" height="200" alt="Header Logo">
