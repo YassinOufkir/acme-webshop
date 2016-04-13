@@ -35,6 +35,10 @@
 			</div>
 		</div>
 		<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+<<<<<<< HEAD
+
+=======
+>>>>>>> cf49228b6de303d4291a155e6b6f2c5a7ed218d6
   <div class="modal-dialog"  role="document">
     <div class="modal-content" id="logwindow">
       <div class="modal-header">
@@ -84,7 +88,38 @@
     </div>
   </div>
 </div>
+<<<<<<< HEAD
+
+			<div class="modal-dialog"  role="document">
+				<div class="modal-content" id="logwindow">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h3 class="modal-title" id="exampleModalLabel">Log in</h3>
+					</div>
+					<form name="login" method="post" action="login.php">
+						<div class="modal-body">
+							<div class="form-group">
+								<label for="recipient-name" class="control-label">Username:</label>
+								<input name="username" type="text" class="form-control" id="recipient-name">
+							</div>
+							<div class="form-group">
+								<label for="text" class="control-label">Password:</label>
+								<input name="password" type="password" class="form-control" id="recipient-name">
+							</div>
+						</div>
+						<div class="modal-footer">
+							<label for="text" class="control-label">remember me</label><input type="checkbox" name="rememberme" value="false">
+							<button type="button" class="btn btn-primary">Submit</button>
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</form>
+				</div>
+			</div>
 		</div>
+
+=======
+		</div>
+>>>>>>> cf49228b6de303d4291a155e6b6f2c5a7ed218d6
 		<div id="header" class="row">
 			<div id="logo">
 				<h1><b>STORE</b></h1>
@@ -106,11 +141,11 @@
 					<hr>
 				</p>
 			</div>
-			<div class="row" id="gallery">
+			<div class="row" id="gallery" id="storeitem">
 				<div class="col-xs-3">
-					<div class="thumbnail">
+					<div class="thumbnail" >
 						<h3><b>Famas F1</b></h3>
-						<img src="img/wapen1.png" width="300" height="122" class="img-responsive">
+						<img src="img/Rifle/rifle1.png" width="300" height="122" class="img-responsive">
 						<div class="weps">
 							<h4>$1199,00</h4>
 							<p>Available stock : <b>4</b></p>
@@ -121,10 +156,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-3">
+				<div class="col-xs-3" id="storeitem">
 					<div class="thumbnail">
 						<h3><b>Famas F1</b></h3>
-						<img src="img/wapen1.png" width="300" height="122" class="img-responsive">
+						<img src="img/Rifle/rifle2.png" width="300" height="122" class="img-responsive">
 						<div class="weps">
 							<h4>$1199,00</h4>
 							<p>Available stock : <b>4</b></p>
@@ -135,10 +170,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-3">
+				<div class="col-xs-3" id="storeitem">
 					<div class="thumbnail">
 						<h3><b>Famas F1</b></h3>
-						<img src="img/wapen1.png" width="300" height="122" class="img-responsive">
+						<img src="img/Rifle/rifle3.png" width="300" height="122" class="img-responsive">
 						<div class="weps">
 							<h4>$1199,00</h4>
 							<p>Available stock : <b>4</b></p>
@@ -149,10 +184,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-3">
+				<div class="col-xs-3" id="storeitem">
 					<div class="thumbnail">
 						<h3><b>Famas F1</b></h3>
-						<img src="img/wapen1.png" width="300" height="122" class="img-responsive">
+						<img src="img/Rifle/rifle4.png" width="300" height="122" class="img-responsive">
 						<div class="weps">
 							<h4>$1199,00</h4>
 							<p>Available stock : <b>4</b></p>
@@ -170,11 +205,11 @@
 					<hr>
 				</p>
 			</div>
-			<div class="row" id="gallery">
+			<div class="row" id="gallery" id="storeitem">
 				<div class="col-xs-3">
 					<div class="thumbnail">
 						<h3><b>Famas F1</b></h3>
-						<img src="img/wapen1.png" width="300" height="122" class="img-responsive">
+						<img src="img/Shotguns/shotgun1.png" width="300" height="122" class="img-responsive">
 						<div class="weps">
 							<h4>$1199,00</h4>
 							<p>Available stock : <b>4</b></p>
@@ -185,10 +220,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-3">
+				<div class="col-xs-3" id="storeitem">
 					<div class="thumbnail">
 						<h3><b>Famas F1</b></h3>
-						<img src="img/wapen1.png" width="300" height="122" class="img-responsive">
+						<img src="img/Shotguns/shotgun2.png" width="300" height="122" class="img-responsive">
 						<div class="weps">
 							<h4>$1199,00</h4>
 							<p>Available stock : <b>4</b></p>
@@ -199,10 +234,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-3">
+				<div class="col-xs-3" id="storeitem">
 					<div class="thumbnail">
 						<h3><b>Famas F1</b></h3>
-						<img src="img/wapen1.png" width="300" height="122" class="img-responsive">
+						<img src="img/Shotguns/shotgun3.png" width="300" height="122" class="img-responsive">
 						<div class="weps">
 							<h4>$1199,00</h4>
 							<p>Available stock : <b>4</b></p>
@@ -213,10 +248,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-3">
+				<div class="col-xs-3" id="storeitem">
 					<div class="thumbnail">
 						<h3><b>Famas F1</b></h3>
-						<img src="img/wapen1.png" width="300" height="122" class="img-responsive">
+						<img src="img/Shotguns/shotgun4.png" width="300" height="122" class="img-responsive">
 						<div class="weps">
 							<h4>$1199,00</h4>
 							<p>Available stock : <b>4</b></p>
@@ -235,10 +270,10 @@
 				</p>
 			</div>
 			<div class="row" id="gallery">
-				<div class="col-xs-3">
-					<div class="thumbnail">
+				<div class="col-xs-3" id="storeitem">
+					<div class="thumbnail2">
 						<h3><b>Famas F1</b></h3>
-						<img src="img/wapen1.png" width="300" height="122" class="img-responsive">
+						<img src="img/Pistols/pistol1.png" width="300" height="122" class="img-responsive">
 						<div class="weps">
 							<h4>$1199,00</h4>
 							<p>Available stock : <b>4</b></p>
@@ -249,10 +284,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-3">
-					<div class="thumbnail">
+				<div class="col-xs-3" id="storeitem">
+					<div class="thumbnail2">
 						<h3><b>Famas F1</b></h3>
-						<img src="img/wapen1.png" width="300" height="122" class="img-responsive">
+						<img src="img/Pistols/pistol2.png" width="300" height="122" class="img-responsive">
 						<div class="weps">
 							<h4>$1199,00</h4>
 							<p>Available stock : <b>4</b></p>
@@ -263,10 +298,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-3">
-					<div class="thumbnail">
+				<div class="col-xs-3" id="storeitem">
+					<div class="thumbnail2">
 						<h3><b>Famas F1</b></h3>
-						<img src="img/wapen1.png" width="300" height="122" class="img-responsive">
+						<img src="img/Pistols/pistol3.png" width="300" height="122" class="img-responsive">
 						<div class="weps">
 							<h4>$1199,00</h4>
 							<p>Available stock : <b>4</b></p>
@@ -278,10 +313,10 @@
 					</div>
 				</div>
 				
-				<div class="col-xs-3">
-					<div class="thumbnail">
+				<div class="col-xs-3" id="storeitem">
+					<div class="thumbnail2">
 						<h3><b>Famas F1</b></h3>
-						<img src="img/wapen1.png" width="300" height="122" class="img-responsive">
+						<img src="img/Pistols/pistol4.png" width="250" height="122" class="img-responsive">
 						<div class="weps">
 							<h4>$1199,00</h4>
 							<p>Available stock : <b>4</b></p>
