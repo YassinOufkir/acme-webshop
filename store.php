@@ -18,7 +18,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				</button>
-				
+				 
 				<div class="collapse navbar-collapse navHeaderCollapse" id="menu">
 					<a href="index.php" class="navbar-brand" id="nametag"><b>High Quality Arms</b></a>
 					<ul class="nav navbar-nav navbar-right">
@@ -31,12 +31,14 @@
 						<li><a href="#"><img src="img/facebook.png" width="20" height="20" class="socialmedia"></a></li>
 						<li><a href="#" data-toggle="modal" data-target="#shoppincart"><img src="img/shoppingcart.png" width="30" height="30"></a></li>
 					</ul>
-					
 				</div>
 			</div>
 		</div>
 		<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+<<<<<<< HEAD
 
+=======
+>>>>>>> cf49228b6de303d4291a155e6b6f2c5a7ed218d6
   <div class="modal-dialog"  role="document">
     <div class="modal-content" id="logwindow">
       <div class="modal-header">
@@ -88,6 +90,7 @@
     </div>
   </div>
 </div>
+<<<<<<< HEAD
 
 			<div class="modal-dialog"  role="document">
 				<div class="modal-content" id="logwindow">
@@ -116,6 +119,9 @@
 			</div>
 		</div>
 
+=======
+		</div>
+>>>>>>> cf49228b6de303d4291a155e6b6f2c5a7ed218d6
 		<div id="header" class="row">
 			<div id="logo">
 				<h1><b>STORE</b></h1>
