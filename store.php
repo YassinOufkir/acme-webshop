@@ -29,12 +29,66 @@
 						<li><a href="#"><img src="img/twitter.png" width="20" height="16" ></a></li>
 						<li><a href="#"><img src="img/insta.png" width="20" height="20" class="socialmedia"></a></li>
 						<li><a href="#"><img src="img/facebook.png" width="20" height="20" class="socialmedia"></a></li>
-						<li><a href="#"><img src="img/shoppingcart.png" width="30" height="30"></a></li>
+						<li><a href="#" data-toggle="modal" data-target="#shoppincart"><img src="img/shoppingcart.png" width="30" height="30"></a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 		<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+<<<<<<< HEAD
+  <div class="modal-dialog"  role="document">
+    <div class="modal-content" id="logwindow">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title" id="exampleModalLabel">Log in</h3>
+      </div>
+      <form name="login" method="post" action="login.php">
+      <div class="modal-body">
+          <div class="form-group">
+            <label for="recipient-name" class="control-label">Username:</label>
+            <input name="username" type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="text" class="control-label">Password:</label>
+            <input name="password" type="password" class="form-control" id="recipient-name">
+          </div>
+      </div>
+      <div class="modal-footer">
+      	<button type="button" class="btn btn-primary">Submit</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+</form>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade text-center" id="shoppincart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+  <div class="modal-dialog"  role="document">
+    <div class="modal-content" id="logwindow">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title" id="exampleModalLabel"><b>Shoppingcart</b></h3>
+      </div>
+      <form name="login" method="post" action="login.php">
+      <div class="modal-body">
+          <div class="form-group">
+            
+          </div>
+          <div class="form-group">
+            <label for="text" class="control-label">Password:</label>
+            <input name="password" type="password" class="form-control" id="recipient-name">
+          </div>
+      </div>
+      <div class="modal-footer">
+      	<button type="button" class="btn btn-primary">Submit</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+</form>
+    </div>
+  </div>
+</div>
+
+=======
 			<div class="modal-dialog"  role="document">
 				<div class="modal-content" id="logwindow">
 					<div class="modal-header">
@@ -61,6 +115,7 @@
 				</div>
 			</div>
 		</div>
+>>>>>>> 5910c5a2709f597746d61e9aa642af80dabfb671
 		<div id="header" class="row">
 			<div id="logo">
 				<h1><b>STORE</b></h1>
