@@ -35,10 +35,6 @@
 			</div>
 		</div>
 		<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
-<<<<<<< HEAD
-=======
-
->>>>>>> refs/remotes/origin/master
   <div class="modal-dialog"  role="document">
     <div class="modal-content" id="logwindow">
       <div class="modal-header">
@@ -86,14 +82,8 @@
 
              </div>
           <div class="form-group">
-<<<<<<< HEAD
-            
           </div>
           <div class="form-group">
-            
-=======
-           
->>>>>>> refs/remotes/origin/master
           </div>
       </div>
       <div class="modal-footer">
@@ -104,17 +94,8 @@
     </div>
   </div>
 </div>
-
-
-<<<<<<< HEAD
 		</div>
-=======
-
-
-
 		</div>
-
->>>>>>> refs/remotes/origin/master
 		<div id="header" class="row">
 			<div id="logo">
 				<h1><b>STORE</b></h1>
