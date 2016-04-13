@@ -96,45 +96,33 @@
 		
 		
 		<div class="midcontent">
-<<<<<<< HEAD
-				
-				<div id="text" class="text-center">	
-					<p>
-						<h1 class="hqatitle">The HQA Team</h1>
-						<hr>
-					</p>
-				</div>
-
-				<div id="profile" class="text-center">	
-					<div class="profilefoto" id="left"></div>
-					<div class="profilefoto"></div>
-					<div class="profilefoto" id="right"></div>
-				</div>
-
-				<div class="abouttext text-center">
+			<div id="text" class="text-center">
+				<p>
+					<h1 class="hqatitle">The HQA Team</h1>
+					<hr>
+				</p>
+			</div>
+			<div id="profile" class="text-center">
+				<div class="profilefoto" id="left"></div>
+				<div class="profilefoto"></div>
+				<div class="profilefoto" id="right"></div>
+			</div>
+			<div class="abouttext text-center">
 				We from HQA are trained profesionals in selling, preparing and guiding fire arms, our knowledge about fire arms dates back to the WWII.<br/><br/>
-
 				If you need information and guidance, HQA is the place to be! Check out our <a href="contact.html" style="color: red;">ABOUT</a> page if you need any kind help. <br/><br/>
-
-					We offer quick and completly FREE shipping, worldwide.<br/><br/>
-
-					Check out our products at our
-				</div>
-
-				<div id="text" class="text-center">	
-					<p>
-						<h1 class="hqatitle">Montage</h1>
-						<hr>
-					</p>
-				</div>
-
-				<div class="vid">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/o63FwCn8dgo" frameborder="0" allowfullscreen></iframe>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/cevzDKW90j0" frameborder="0" allowfullscreen></iframe>
-				</div>
-
-=======
-			
+				We offer quick and completly FREE shipping, worldwide.<br/><br/>
+				Check out our products at our
+			</div>
+			<div id="text" class="text-center">
+				<p>
+					<h1 class="hqatitle">Montage</h1>
+					<hr>
+				</p>
+			</div>
+			<div class="vid">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/o63FwCn8dgo" frameborder="0" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/cevzDKW90j0" frameborder="0" allowfullscreen></iframe>
+			</div>
 			<div id="text" class="text-center">
 				<p>
 					<h1 class="hqatitle">The HQA Team</h1>
@@ -160,8 +148,6 @@
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/o63FwCn8dgo" frameborder="0" allowfullscreen></iframe>
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/cevzDKW90j0" frameborder="0" allowfullscreen></iframe>
 			</div>
->>>>>>> 5910c5a2709f597746d61e9aa642af80dabfb671
-			
 		</div>
 		<div id="footer">
 			<div class="footerimg">
