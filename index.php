@@ -96,7 +96,7 @@
 		
 		
 		<div class="midcontent">
-<<<<<<< HEAD
+
 
 				
 				<div id="text" class="text-center">	
@@ -108,7 +108,6 @@
 
 
 				<div class="abouttext text-center">
-=======
 			<div id="text" class="text-center">
 				<p>
 					<h1 class="hqatitle">The HQA Team</h1>
@@ -121,10 +120,8 @@
 				<div class="profilefoto" id="right"></div>
 			</div>
 			<div class="abouttext text-center">
->>>>>>> cf49228b6de303d4291a155e6b6f2c5a7ed218d6
 				We from HQA are trained profesionals in selling, preparing and guiding fire arms, our knowledge about fire arms dates back to the WWII.<br/><br/>
 				If you need information and guidance, HQA is the place to be! Check out our <a href="contact.html" style="color: red;">ABOUT</a> page if you need any kind help. <br/><br/>
-<<<<<<< HEAD
 
 					We offer quick and completly FREE shipping, worldwide.<br/><br/>
 
@@ -185,7 +182,6 @@
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/o63FwCn8dgo" frameborder="0" allowfullscreen></iframe>
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/cevzDKW90j0" frameborder="0" allowfullscreen></iframe>
 			</div>
->>>>>>> cf49228b6de303d4291a155e6b6f2c5a7ed218d6
 		</div>
 		<div id="footer">
 			<div class="footerimg">

@@ -35,10 +35,6 @@
 			</div>
 		</div>
 		<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
-<<<<<<< HEAD
-
-=======
->>>>>>> cf49228b6de303d4291a155e6b6f2c5a7ed218d6
   <div class="modal-dialog"  role="document">
     <div class="modal-content" id="logwindow">
       <div class="modal-header">
@@ -88,7 +84,6 @@
     </div>
   </div>
 </div>
-<<<<<<< HEAD
 
 			<div class="modal-dialog"  role="document">
 				<div class="modal-content" id="logwindow">
@@ -117,9 +112,7 @@
 			</div>
 		</div>
 
-=======
 		</div>
->>>>>>> cf49228b6de303d4291a155e6b6f2c5a7ed218d6
 		<div id="header" class="row">
 			<div id="logo">
 				<h1><b>STORE</b></h1>
