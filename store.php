@@ -35,6 +35,10 @@
 			</div>
 		</div>
 		<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+<<<<<<< HEAD
+=======
+
+>>>>>>> refs/remotes/origin/master
   <div class="modal-dialog"  role="document">
     <div class="modal-content" id="logwindow">
       <div class="modal-header">
@@ -69,11 +73,27 @@
         <h3 class="modal-title" id="exampleModalLabel"><b>Shoppingcart</b></h3>
       </div>
       <div class="modal-body">
+          <div class="form-group" id="shoppingproductss">
+          	<h4>Your Products</h4>
+            <img src="img/Rifle/rifle1.png" width="100" height="40" class=" miniproducts img-responsive">
+            <img src="img/Rifle/rifle3.png" width="100" height="40" class=" miniproducts img-responsive">
+            <img src="img/Shotguns/shotgun3.png" width="100" height="40" class=" miniproducts img-responsive">
+             </div>
+             <div>
+             <input  class="buttonproducts" type="submit" name="submit" value="Add to cart">
+            <input  class="buttonproducts" type="submit" name="submit" value="Add to cart">
+            <input  class="buttonproducts" type="submit" name="submit" value="Add to cart">
+
+             </div>
           <div class="form-group">
+<<<<<<< HEAD
             
           </div>
           <div class="form-group">
             
+=======
+           
+>>>>>>> refs/remotes/origin/master
           </div>
       </div>
       <div class="modal-footer">
@@ -85,34 +105,16 @@
   </div>
 </div>
 
-			<div class="modal-dialog"  role="document">
-				<div class="modal-content" id="logwindow">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h3 class="modal-title" id="exampleModalLabel">Log in</h3>
-					</div>
-					<form name="login" method="post" action="login.php">
-						<div class="modal-body">
-							<div class="form-group">
-								<label for="recipient-name" class="control-label">Username:</label>
-								<input name="username" type="text" class="form-control" id="recipient-name">
-							</div>
-							<div class="form-group">
-								<label for="text" class="control-label">Password:</label>
-								<input name="password" type="password" class="form-control" id="recipient-name">
-							</div>
-						</div>
-						<div class="modal-footer">
-							<label for="text" class="control-label">remember me</label><input type="checkbox" name="rememberme" value="false">
-							<button type="button" class="btn btn-primary">Submit</button>
-							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-						</div>
-					</form>
-				</div>
-			</div>
+
+<<<<<<< HEAD
 		</div>
+=======
+
+
 
 		</div>
+
+>>>>>>> refs/remotes/origin/master
 		<div id="header" class="row">
 			<div id="logo">
 				<h1><b>STORE</b></h1>
@@ -141,7 +143,7 @@
 						<img src="img/Rifle/rifle1.png" width="300" height="122" class="img-responsive">
 						<div class="weps">
 							<h4>$1199,00</h4>
-							<p>Available stock : <b>4</b></p>
+							<p>Available stock : <b>2</b></p>
 							<p>A mid to long rifle, perfect for assault combat. Available with Red-Dot Scope</p>
 						</div>
 						<div class="sbutton">
@@ -155,7 +157,7 @@
 						<img src="img/Rifle/rifle2.png" width="300" height="122" class="img-responsive">
 						<div class="weps">
 							<h4>$1199,00</h4>
-							<p>Available stock : <b>4</b></p>
+							<p>Available stock : <b>12</b></p>
 							<p>A mid to long rifle, perfect for assault combat. Available with Red-Dot Scope</p>
 						</div>
 						<div class="sbutton">
@@ -169,7 +171,7 @@
 						<img src="img/Rifle/rifle3.png" width="300" height="122" class="img-responsive">
 						<div class="weps">
 							<h4>$1199,00</h4>
-							<p>Available stock : <b>4</b></p>
+							<p>Available stock : <b>9</b></p>
 							<p>A mid to long rifle, perfect for assault combat. Available with Red-Dot Scope</p>
 						</div>
 						<div class="sbutton">
@@ -183,7 +185,7 @@
 						<img src="img/Rifle/rifle4.png" width="300" height="122" class="img-responsive">
 						<div class="weps">
 							<h4>$1199,00</h4>
-							<p>Available stock : <b>4</b></p>
+							<p>Available stock : <b>7</b></p>
 							<p>A mid to long rifle, perfect for assault combat. Available with Red-Dot Scope</p>
 						</div>
 						<div class="sbutton">
@@ -205,7 +207,7 @@
 						<img src="img/Shotguns/shotgun1.png" width="300" height="122" class="img-responsive">
 						<div class="weps">
 							<h4>$1199,00</h4>
-							<p>Available stock : <b>4</b></p>
+							<p>Available stock : <b>3</b></p>
 							<p>A mid to long rifle, perfect for assault combat. Available with Red-Dot Scope</p>
 						</div>
 						<div class="sbutton">
@@ -219,7 +221,7 @@
 						<img src="img/Shotguns/shotgun2.png" width="300" height="122" class="img-responsive">
 						<div class="weps">
 							<h4>$1199,00</h4>
-							<p>Available stock : <b>4</b></p>
+							<p>Available stock : <b>3</b></p>
 							<p>A mid to long rifle, perfect for assault combat. Available with Red-Dot Scope</p>
 						</div>
 						<div class="sbutton">
@@ -233,7 +235,7 @@
 						<img src="img/Shotguns/shotgun3.png" width="300" height="122" class="img-responsive">
 						<div class="weps">
 							<h4>$1199,00</h4>
-							<p>Available stock : <b>4</b></p>
+							<p>Available stock : <b>15</b></p>
 							<p>A mid to long rifle, perfect for assault combat. Available with Red-Dot Scope</p>
 						</div>
 						<div class="sbutton">
@@ -247,7 +249,7 @@
 						<img src="img/Shotguns/shotgun4.png" width="300" height="122" class="img-responsive">
 						<div class="weps">
 							<h4>$1199,00</h4>
-							<p>Available stock : <b>4</b></p>
+							<p>Available stock : <b>21</b></p>
 							<p>A mid to long rifle, perfect for assault combat. Available with Red-Dot Scope</p>
 						</div>
 						<div class="sbutton">
