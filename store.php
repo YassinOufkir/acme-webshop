@@ -68,18 +68,16 @@
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h3 class="modal-title" id="exampleModalLabel"><b>Shoppingcart</b></h3>
       </div>
-      <form name="login" method="post" action="login.php">
       <div class="modal-body">
           <div class="form-group">
             
           </div>
           <div class="form-group">
-            <label for="text" class="control-label">Password:</label>
-            <input name="password" type="password" class="form-control" id="recipient-name">
+            
           </div>
       </div>
       <div class="modal-footer">
-      	<button type="button" class="btn btn-primary">Submit</button>
+      	<button type="button" class="btn btn-primary">Order</button>
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
 </form>
