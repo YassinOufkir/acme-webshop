@@ -1,16 +1,15 @@
 <?php
-$user = 'ayy';
-$pass = 'lmao';
-
+	$user = 'user';
+	$pass = 'user';
 	if (isset($_COOKIE['username']) && isset($_COOKIE['password'])) {
-    
-    if (($_POST['username'] != $user) || ($_POST['password'] != md5($pass))) {    
-        //header('Location: login.php');
-    } else {
-        echo 'Welcome back ' . $_COOKIE['username'];
+ 	echo "<script>console.log('".$_COOKIE['username'] . $_COOKIE['password']."')</script>";
+    if (($_COOKIE['username'] != $user) || ($_COOKIE['password'] != $pass)) {    
+        echo "<li><a href='#' data-toggle='modal' data-target='#login'>Log in</a></li><script>window.alert('wrong username/password')</script>";
+    } elseif(($_COOKIE['username'] == $user) || ($_COOKIE['password'] == $pass)) {
+        echo "<li><a href='#' data-toggle='modal' data-target='#login'>Welcome back</a></li>";
     }
     
 	} else {
-    //header('Location: index.php');
+    	echo "<li><a href='#' data-toggle='modal' data-target='#login'>Log In</a></li><script>window.alert('No username/password given')</script>";
 	}
 ?>
