@@ -89,9 +89,22 @@ body{
 	background-color:black;
 	position:relative;
 	margin-bottom:0%;
-	height:720px;
+	height:900px;
 	font-family:audiowide;
 }
+#questions{
+	width:75%;
+	height:400px;
+	background-color:#2A2D2A;
+	color:white;
+	margin-left:auto;
+	margin-right:auto;
+}
+.qtext h4{
+	font-size:1.4em;
+
+}
+
 #receiptform{
 	margin-top:5%;
 	background-color:#2A2D2A;

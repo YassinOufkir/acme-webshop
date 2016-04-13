@@ -161,7 +161,39 @@
 					</div>
 				</div>
 			</div>
+
+			
 		</div>
+
+		<div class="row" id="questions">
+				<div class="col-lg-12">
+					<h1 class="text-center">Frequently Asked Questions</h1>
+					<p class="qtext">
+						<br>
+						<br>
+						<h4>How low will it take for my products to be delivered?</h4>
+						<br>
+						Delivery normally takes about 2 - 4 weeks, special occasions may occur which can extend the delivery time.
+						<br>
+						<br>
+						<h4>How much will the delivery cost?</h4>
+						<br>
+						Delivery is free if the price is higher than €400, if the price is lower then the costs around €15.
+						<br>
+						<br>
+						<h4>Do i need some sort of certificate/license to buy these products?</h4>
+						<br>
+						Depending on your country and license, if we received valid documentation then you will be able to purchase these products.
+						<br>
+						<br>
+
+
+
+					</p>
+				</div>
+
+			</div>
+
 		<div id="footer">
 			<div class="footerimg">
 				<img src="img/logo2.png" width="200" height="200" alt="Header Logo">
