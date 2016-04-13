@@ -95,6 +95,28 @@ body{
 
 
 }
+#storeitem{
+	height:200px;
+}
+
+
+
+.miniproducts{
+	display:inline-block;
+	background-color:white;
+	height:40px;
+	width:100px;
+}
+#shoppingproducts{
+	background-color:white;
+}
+.buttonproducts{
+	display:inline-block;
+	background-color:#2A2D2A;
+	color:red;
+	margin-left:0%;
+	border:none;
+}
 
 .vid{
 	width:1180px;

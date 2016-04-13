@@ -29,7 +29,7 @@
 						<li><a href="#"><img src="img/twitter.png" width="20" height="16" ></a></li>
 						<li><a href="#"><img src="img/insta.png" width="20" height="20" class="socialmedia"></a></li>
 						<li><a href="#"><img src="img/facebook.png" width="20" height="20" class="socialmedia"></a></li>
-						<li><a href="#"><img src="img/shoppingcart.png" width="30" height="30"></a></li>
+						<li><a href="#" data-toggle="modal" data-target="#shoppincart"><img src="img/shoppingcart.png" width="30" height="30"></a></li>
 					</ul>
 					
 				</div>
@@ -62,6 +62,40 @@
 				</div>
 			</div>
 		</div>
+
+		<div class="modal fade text-center" id="shoppincart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+  <div class="modal-dialog"  role="document">
+    <div class="modal-content" id="logwindow">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title" id="exampleModalLabel"><b>Shoppingcart</b></h3>
+      </div>
+      <form name="login" method="post" action="login.php">
+      <div class="modal-body">
+          <div class="form-group" id="shoppingproductss">
+          	<h4>Your Products</h4>
+            <img src="img/Rifle/rifle1.png" width="100" height="40" class=" miniproducts img-responsive">
+            <img src="img/Rifle/rifle3.png" width="100" height="40" class=" miniproducts img-responsive">
+            <img src="img/Shotguns/shotgun3.png" width="100" height="40" class=" miniproducts img-responsive">
+             </div>
+             <div>
+             <input  class="buttonproducts" type="submit" name="submit" value="delete product">
+            <input  class="buttonproducts" type="submit" name="submit" value="delete product">
+            <input  class="buttonproducts" type="submit" name="submit" value="delete product">
+
+             </div>
+          <div class="form-group">
+           
+          </div>
+      </div>
+      <div class="modal-footer">
+      	<button type="button" class="btn btn-primary">Check out</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+</form>
+    </div>
+  </div>
+</div>	
 		<div id="header" class="row">
 			<div id="logo">
 				<img src="img/logo2.png" alt="Header Logo">

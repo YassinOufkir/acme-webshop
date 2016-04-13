@@ -78,9 +78,9 @@
             <img src="img/Shotguns/shotgun3.png" width="100" height="40" class=" miniproducts img-responsive">
              </div>
              <div>
-             <input  class="buttonproducts" type="submit" name="submit" value="Add to cart">
-            <input  class="buttonproducts" type="submit" name="submit" value="Add to cart">
-            <input  class="buttonproducts" type="submit" name="submit" value="Add to cart">
+             <input  class="buttonproducts" type="submit" name="submit" value="delete product">
+            <input  class="buttonproducts" type="submit" name="submit" value="delete product">
+            <input  class="buttonproducts" type="submit" name="submit" value="delete product">
 
              </div>
           <div class="form-group">
@@ -88,7 +88,7 @@
           </div>
       </div>
       <div class="modal-footer">
-      	<button type="button" class="btn btn-primary">Submit</button>
+      	<button type="button" class="btn btn-primary">Check out</button>
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
 </form>
