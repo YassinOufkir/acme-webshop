@@ -138,8 +138,13 @@
 				</div>
 
 				<div class="abouttext text-center">
-				<h4>We from HQA are trained profesionals in selling, preparing and guiding fire arms, our knowledge about fire arms dates back to the wwII.
-				If you need information and guidance, HQA is the place to be!  </h4>
+				We from HQA are trained profesionals in selling, preparing and guiding fire arms, our knowledge about fire arms dates back to the WWII.<br/><br/>
+
+				If you need information and guidance, HQA is the place to be! Check out our <a href="contact.html" style="color: red;">ABOUT</a> page if you need any kind help. <br/><br/>
+
+					We offer quick and completly FREE shipping, worldwide.<br/><br/>
+
+					Check out our products at our
 				</div>
 
 				<div id="text" class="text-center">	

@@ -1,0 +1,210 @@
+
+body{
+
+}
+.socialmedia{
+	margin: 2px;
+	width: 25px;
+	height: 25px;
+
+
+}
+
+.socialmedia:hover{
+	opacity: 0.5;
+}
+
+#nametag{
+	color:red;
+	display:inline-block;
+	font-family:audiowide;
+	font-size:2em;
+	padding-left: 180px;
+	padding-top: 25px;
+	
+
+}
+
+#nametag:hover{
+	opacity: 0.5;
+}
+
+
+#navbar{
+	margin-bottom:0px;
+	background-color:black;
+	/* background-image: url("lots-of-guns.png"); */
+
+}
+
+#menu {
+	display:inline-block;
+	font-family:audiowide;
+	position:relative;
+
+}
+
+#menu ul li {
+	background-color:black;
+	font-family:audiowide;
+}
+#menu li a{
+	color:white;
+	font-size:1.2em;
+	font-family:audiowide;
+}
+
+#menu li a:hover{
+	color:red;
+	font-family:audiowide;
+}
+
+#the-slider{
+	display:inline-block;
+	margin-top:-80px;
+}
+#logo{
+	color:white;
+	z-index:900;
+	position:absolute;
+	padding-left:30%;
+	padding-top:5%;
+	height:500px;
+	font-family:audiowide;
+
+
+}
+
+#logo h1 {
+}
+#thelogo {
+	position:absolute;
+	color:white;
+	z-index:900;
+}
+#logo h1{
+	display:inline-block;
+	padding-top: 40px;
+}
+
+#logo img{
+	padding-bottom: 30px;
+}
+#header{
+	position:fixed;
+	height:auto;
+	z-index:1;
+}
+
+.hqatitle{
+	margin-top:5%;
+
+}
+.midcontent{
+	z-index:200;
+	width:100%;
+	margin-top:33.7%;
+	background-color:black;
+	position:relative;
+	margin-bottom:0%;
+	height:1300px;
+	font-family:audiowide;
+	color:white;
+}
+
+.midcontent
+
+.vid{
+	width:1180px;
+	margin-top:2%;
+	margin-left:auto;
+	margin-right:auto;
+}
+iframe{
+	margin-left:2%;
+	display:inline-block;
+	border:2px solid white;
+}
+#text{
+	font-family:audiowide;
+	position:relative;
+	color:white;
+	width:30%;
+	padding-top:5%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:black;
+	
+}
+
+#profile{
+	width:40%;
+	margin-top:4%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.profilefoto{
+	width:200px;
+	height:200px;
+	border-radius:999px;
+	margin-top:2%;
+	background-color:white;
+	display:inline-block;
+}
+#left{
+	float:left;
+}
+#right{
+	float:right;
+}
+#slider{
+	
+	
+}
+.headertext{
+	margin-top:5%;
+	font-family:audiowide;
+}
+.abouttext{
+	color:white;
+	font-family:audiowide;
+	width:40%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5%;
+}
+hr{
+	color:white;
+	height:5px;
+}
+
+#footer{
+	margin-top:-3%;
+	width:100%;
+	background-color:#2A2D2A;
+	height:280px;
+	position:relative;
+}
+.footerimg{
+	margin-left: 45.3%;
+	margin-right: 50%;
+	padding-top: 30px;
+}
+
+
+#footermenu{
+	margin-top:-2%;
+	color:white;
+}
+
+
+.list-inline-text-center {
+	padding-top: 5px;
+}
+
+ul.nav.navbar-nav.navbar-right a {
+	padding-top: 30px;
+
+}
+
+
